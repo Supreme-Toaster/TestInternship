@@ -39,7 +39,7 @@ body {
 .knapp-1:checked ~ .produkt-info-1, .knapp-2:checked ~ .produkt-info-2,.knapp-3:checked ~ .produkt-info-3,.knapp-4:checked ~ .produkt-info-4{
     opacity: 1;
     max-height:1000px;
-    transition: all 0.5s;
+    transition: all 1s;
 }
 
 .produkt-knapp{
