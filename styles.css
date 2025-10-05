@@ -5,6 +5,12 @@ body {
     box-sizing: border-box;
 }
 
+.bild{
+    padding-top: 10px;
+    min-width: 120px;
+    width: 900px;
+}
+
 .produkter{
     margin: auto;
     display: flex;
@@ -13,10 +19,6 @@ body {
     padding-top: 5%;
     min-width: 300px;
     width: 40%;
-}
-
-.knapp-1,.knapp-2,.knapp-3,.knapp-4{
-    display:none;
 }
 
 .produkt-info-1,.produkt-info-2,.produkt-info-3,.produkt-info-4{
@@ -30,10 +32,13 @@ body {
     transition: all 0.5s;
 }
 
+.knapp-1,.knapp-2,.knapp-3,.knapp-4{
+    display:none;
+}
+
 .knapp-1:checked ~ .produkt-info-1, .knapp-2:checked ~ .produkt-info-2,.knapp-3:checked ~ .produkt-info-3,.knapp-4:checked ~ .produkt-info-4{
     opacity: 1;
-    max-height: 300px;
-    padding: 5px 0px 5px 0px;
+    max-height:1000px;
     transition: all 0.5s;
 }
 
@@ -44,11 +49,6 @@ body {
     width: 100%;
     background-color: gray;
     border-bottom: solid 1px;
-}
-
-.bild{
-    min-width: 120px;
-    width: 900px;
 }
 
 .produkt-knapp-detalj {
@@ -62,4 +62,8 @@ body {
 .produkt-knapp-ikon{
     font-size: 1.8em;
     padding-right: 10px;
+}
+
+.text{
+    padding: 10px 10px 10px 5px;
 }
